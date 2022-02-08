@@ -13,7 +13,7 @@ public class listeroles extends ListenerAdapter {
 
     public static void main(String[] args) throws LoginException {
 
-        String TOKEN = "ODkyNjk5NjUyMTMzMTAxNTY4.YVQtVg.ear-o_nJB_T5jlo451wr24iUKTY";
+        String TOKEN = "YOUR_TOKEN_HERE";
 
         JDA api = JDABuilder.createDefault(TOKEN)
                 .setChunkingFilter(ChunkingFilter.ALL)
